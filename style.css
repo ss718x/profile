@@ -1,13 +1,13 @@
 body {
-  color: #0077B6;
-  background-color: #CAF0F8;
+  color: #003049;
+  background-color: #C1121F;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 17px;
   line-height: normal;
 }
 
 h1, h2, h3 {
-  color: #03045E;
+  color: #780000;
   font-family: Arial, Helvetica, sans-serif;
   line-height: normal;
 }
@@ -17,12 +17,20 @@ a {
   text-decoration: none;
 }
 
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
 .container {
   width: 700px;
+  padding: 5px;
   margin: 40px auto;
-  border: 3px solid #90E0EF;
+  /* border: 3px solid #90E0EF; */
   border-radius: 5px;
-  box-shadow: 5px 5px #90E0EF;
+  box-shadow: 5px 5px #780000;
+  background-color: #FDF0D5;
 }
 
 .card {
@@ -32,6 +40,10 @@ a {
 ul {
   list-style: none;
   padding: 0;
+}
+
+#button {
+  border-radius: 3px;
 }
 
 /* responsive  */
